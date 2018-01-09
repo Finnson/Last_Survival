@@ -1,0 +1,22 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\MyAsset\Scripts\VR\Trigger\VRPickTrigger.cs">
+    <Files>
+      <File FileName="Assets\MyAsset\Scripts\VR\Package\VRPlayRecorder.cs" Line="1" Column="1" />
+      <File FileName="Assets\MyAsset\Scripts\VR\Trigger\VRPickTrigger.cs" Line="35" Column="41" />
+      <File FileName="Assets\MyAsset\Scripts\VR\Trigger\VRDropDownTrigger.cs" Line="1" Column="1" />
+      <File FileName="Assets\MyAsset\Scripts\VR\Trigger\VROpenDrawerTrigger.cs" Line="1" Column="1" />
+      <File FileName="Assets\MyAsset\Scripts\VR\Trigger\VRKeyOpenDoorTrigger.cs" Line="1" Column="1" />
+      <File FileName="Assets\MyAsset\Scripts\VR\Trigger\VRDropUpTrigger.cs" Line="1" Column="1" />
+      <File FileName="Assets\MyAsset\Scripts\VR\Trigger\VROpenLightTrigger.cs" Line="1" Column="1" />
+      <File FileName="Assets\MyAsset\Scripts\VR\Trigger\VRBeatWallTrigger.cs" Line="1" Column="1" />
+      <File FileName="Assets\MyAsset\Scripts\VR\Trigger\VRTorchPutTrigger.cs" Line="22" Column="62" />
+      <File FileName="Assets\MyAsset\Scripts\VR\Trigger\VRTorchMoveTrigger.cs" Line="42" Column="32" />
+      <File FileName="Assets\MyAsset\Scripts\VR\Game\VRGameController.cs" Line="171" Column="83" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

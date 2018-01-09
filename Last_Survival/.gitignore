@@ -1,0 +1,6 @@
+.vs
+Build
+Library
+obj
+Assembly-*.csproj
+Assembly-*.unityproj

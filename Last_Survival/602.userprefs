@@ -1,0 +1,30 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\MyAsset\Shaders\VolShaft_1.shader">
+    <Files>
+      <File FileName="Assets\MyAsset\Scripts\VR\ShaderController\VRDissolveController.cs" Line="1" Column="1" />
+      <File FileName="Assets\MyAsset\Scripts\VR\Trigger\Room2\VRDissolveTrigger.cs" Line="1" Column="1" />
+      <File FileName="Assets\MyAsset\Shaders\Dissolve.shader" Line="1" Column="1" />
+      <File FileName="Assets\MyAsset\Scripts\NPC\VRNPCController.cs" Line="1" Column="1" />
+      <File FileName="Assets\MyAsset\Scripts\VR\Trigger\Room4\VRSwipeCardTrigger.cs" Line="1" Column="1" />
+      <File FileName="Assets\MyAsset\Scripts\VR\Player\VRBookController.cs" Line="1" Column="1" />
+      <File FileName="Assets\MyAsset\Scripts\VR\Movie\VRMovieController.cs" Line="1" Column="1" />
+      <File FileName="Assets\MyAsset\Scripts\VR\Player\VRFocusCheck.cs" Line="133" Column="69" />
+      <File FileName="Assets\MyAsset\Shaders\VolShaft_1.shader" Line="45" Column="33" />
+      <File FileName="Assets\MyAsset\Scripts\VR\ShaderController\VolShaft_1.cs" Line="30" Column="70" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="C:\Users\SJTU_VR\Desktop\602\Assets\MyAsset\Scripts\NPC\VRNPCController.cs" line="85" column="1" />
+      <Breakpoint file="C:\Users\SJTU_VR\Desktop\602\Assets\MyAsset\Scripts\NPC\VRNPCController.cs" line="87" column="1" />
+      <Breakpoint file="C:\Users\SJTU_VR\Desktop\602\Assets\MyAsset\Scripts\NPC\VRNPCController.cs" line="125" column="1" />
+      <Breakpoint file="C:\Users\SJTU_VR\Desktop\602\Assets\MyAsset\Scripts\NPC\VRNPCController.cs" line="172" column="1" />
+      <Breakpoint file="C:\Users\SJTU_VR\Desktop\602\Assets\MyAsset\Scripts\NPC\VRNPCController.cs" line="138" column="84" />
+      <Breakpoint file="C:\Users\SJTU_VR\Desktop\602\Assets\MyAsset\Scripts\NPC\VRNPCController.cs" line="134" column="1" />
+      <Breakpoint file="C:\Users\SJTU_VR\Desktop\602\Assets\MyAsset\Scripts\NPC\VRNPCController.cs" line="129" column="1" />
+      <Breakpoint file="C:\Users\SJTU_VR\Desktop\602\Assets\MyAsset\Scripts\NPC\VRNPCController.cs" line="132" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

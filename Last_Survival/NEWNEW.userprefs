@@ -1,0 +1,19 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\MyAsset\Scripts\VR\Trigger\Room4\VRSwipeCardTrigger.cs">
+    <Files>
+      <File FileName="Assets\MyAsset\Scripts\VR\Game\VRGameController.cs" Line="1" Column="1" />
+      <File FileName="Assets\MyAsset\Scripts\VR\Trigger\Room4\VRSwipeCardTrigger.cs" Line="34" Column="2" />
+      <File FileName="Assets\MyAsset\Scripts\VR\Trigger\Room1\VRKeyOpenDoorTrigger.cs" Line="1" Column="1" />
+      <File FileName="Assets\MyAsset\Scripts\VR\Trigger\Room1\VROpenDrawerTrigger.cs" Line="1" Column="1" />
+      <File FileName="Assets\MyAsset\Scripts\VR\Trigger\Room1\VRDropDownTrigger.cs" Line="1" Column="1" />
+      <File FileName="Assets\MyAsset\Scripts\VR\Player\VRFocusCheck.cs" Line="1" Column="1" />
+      <File FileName="Assets\MyAsset\Scripts\VR\Audio\VRAudioController.cs" Line="1" Column="1" />
+      <File FileName="Assets\MyAsset\Scripts\VR\Trigger\Hall\VRDropUpTrigger.cs" Line="82" Column="21" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

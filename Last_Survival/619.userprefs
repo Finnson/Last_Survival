@@ -1,0 +1,14 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\MyAsset\Scripts\VR\EndScene\VRGameOverBG.cs">
+    <Files>
+      <File FileName="Assets\MyAsset\Scripts\VR\Game\VRGameController.cs" Line="325" Column="16" />
+      <File FileName="Assets\MyAsset\Scripts\VR\StartScene\VRFadeOutSceneController.cs" Line="37" Column="6" />
+      <File FileName="Assets\MyAsset\Scripts\VR\EndScene\VRGameOverBG.cs" Line="23" Column="30" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

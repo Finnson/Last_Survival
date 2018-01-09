@@ -1,0 +1,713 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9D6C423E-D81C-8227-58D1-9C5C2481A2BF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
+    <UnityVersion>5.5.1f1</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion Condition=" '$(VisualStudioVersion)' != '10.0' ">4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_1;UNITY_5_5;UNITY_5;UNITY_64;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VIDEO;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU;CROSS_PLATFORM_INPUT</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_1;UNITY_5_5;UNITY_5;UNITY_64;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VIDEO;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU;CROSS_PLATFORM_INPUT</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PlaymodeTestsRunner">
+      <HintPath>Library\UnityAssemblies\UnityEngine.PlaymodeTestsRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HoloLens">
+      <HintPath>Library\UnityAssemblies\UnityEngine.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VR">
+      <HintPath>Library\UnityAssemblies\UnityEngine.VR.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="620.CSharp.Plugins.csproj">
+      <Project>{5AB12467-8B13-9376-28C1-5845FC90F874}</Project>
+      <Name>620.CSharp.Plugins</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\(CharacterB)Cleaver Warrior\Test World\Scripts\WaterSimple.cs" />
+    <Compile Include="Assets\(CharacterC)Extreme medical characters pack\Scripts\SimpleAnimController.cs" />
+    <Compile Include="Assets\(CharacterD)UnityChan\Scripts\CameraController.cs" />
+    <Compile Include="Assets\(CharacterD)UnityChan\Scripts\FaceUpdate.cs" />
+    <Compile Include="Assets\(CharacterD)UnityChan\Scripts\IdleChanger.cs" />
+    <Compile Include="Assets\(CharacterD)UnityChan\Scripts\SceneLoader.cs" />
+    <Compile Include="Assets\(CharacterD)UnityChan\Scripts\ThirdPersonCamera.cs" />
+    <Compile Include="Assets\(CharacterD)UnityChan\Scripts\UnityChanControlScriptWithRgidBody.cs" />
+    <Compile Include="Assets\Environment\Case1\Scripts\Room Tracing\dropPoint.cs" />
+    <Compile Include="Assets\Environment\GunAndBar\Flare Gun\Scripts\flarebullet.cs" />
+    <Compile Include="Assets\Environment\GunAndBar\Flare Gun\Scripts\flaregun.cs" />
+    <Compile Include="Assets\Environment\GunAndBar\Flare Gun\Scripts\flareround.cs" />
+    <Compile Include="Assets\Environment\GunAndBar\Flare Gun\Scripts\swayc.cs" />
+    <Compile Include="Assets\Environment\GunAndBar\Flare Gun\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
+    <Compile Include="Assets\Environment\GunAndBar\Materials\Sky FX Pack\Scripts\LightBeamsControlScript.cs" />
+    <Compile Include="Assets\Environment\GunAndBar\Materials\Sky FX Pack\Scripts\LookAtBehaviour.cs" />
+    <Compile Include="Assets\Environment\GunAndBar\Materials\Sky FX Pack\Scripts\LookAtCameraBehaviour.cs" />
+    <Compile Include="Assets\Environment\GunAndBar\Materials\Sky FX Pack\Scripts\RayBehavior.cs" />
+    <Compile Include="Assets\Environment\GunAndBar\Materials\Sky FX Pack\Scripts\RotateBehaviour.cs" />
+    <Compile Include="Assets\Environment\GunAndBar\Materials\Sky FX Pack\Scripts\ScrollBehaviour.cs" />
+    <Compile Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\CinematicEffects(ALPHA)\AntiAliasing\AntiAliasing.cs" />
+    <Compile Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\CinematicEffects(BETA)\Common\ImageEffectHelper.cs" />
+    <Compile Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\CinematicEffects(BETA)\Common\RenderTexureUtility.cs" />
+    <Compile Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\CinematicEffects(BETA)\DepthOfField\DepthOfField.cs" />
+    <Compile Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\CinematicEffects(BETA)\ScreenSpaceReflection\ScreenSpaceReflection.cs" />
+    <Compile Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\CinematicEffects(BETA)\TonemappingColorGrading\TonemappingColorGrading.cs" />
+    <Compile Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Scripts\Antialiasing.cs" />
+    <Compile Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Scripts\Bloom.cs" />
+    <Compile Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Scripts\BloomAndFlares.cs" />
+    <Compile Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Scripts\BloomOptimized.cs" />
+    <Compile Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Scripts\Blur.cs" />
+    <Compile Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Scripts\BlurOptimized.cs" />
+    <Compile Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Scripts\CameraMotionBlur.cs" />
+    <Compile Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionCurves.cs" />
+    <Compile Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionLookup.cs" />
+    <Compile Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionRamp.cs" />
+    <Compile Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Scripts\ContrastEnhance.cs" />
+    <Compile Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Scripts\ContrastStretch.cs" />
+    <Compile Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Scripts\CreaseShading.cs" />
+    <Compile Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Scripts\DepthOfField.cs" />
+    <Compile Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Scripts\DepthOfFieldDeprecated.cs" />
+    <Compile Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Scripts\EdgeDetection.cs" />
+    <Compile Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Scripts\Fisheye.cs" />
+    <Compile Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Scripts\GlobalFog.cs" />
+    <Compile Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Scripts\Grayscale.cs" />
+    <Compile Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Scripts\ImageEffectBase.cs" />
+    <Compile Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Scripts\ImageEffects.cs" />
+    <Compile Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Scripts\MotionBlur.cs" />
+    <Compile Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Scripts\NoiseAndGrain.cs" />
+    <Compile Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Scripts\NoiseAndScratches.cs" />
+    <Compile Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Scripts\PostEffectsBase.cs" />
+    <Compile Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Scripts\PostEffectsHelper.cs" />
+    <Compile Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Scripts\Quads.cs" />
+    <Compile Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Scripts\ScreenOverlay.cs" />
+    <Compile Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Scripts\ScreenSpaceAmbientObscurance.cs" />
+    <Compile Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Scripts\ScreenSpaceAmbientOcclusion.cs" />
+    <Compile Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Scripts\SepiaTone.cs" />
+    <Compile Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Scripts\SunShafts.cs" />
+    <Compile Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Scripts\TiltShift.cs" />
+    <Compile Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Scripts\Tonemapping.cs" />
+    <Compile Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Scripts\Triangles.cs" />
+    <Compile Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Scripts\Twirl.cs" />
+    <Compile Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Scripts\VignetteAndChromaticAberration.cs" />
+    <Compile Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Scripts\Vortex.cs" />
+    <Compile Include="Assets\Environment\Other\torch\scripts\Torchelight.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ColliderEvent\ColliderEventCaster.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ColliderEvent\ColliderEventData.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ColliderEvent\ColliderEventInterfaces.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ColliderEvent\ColliderEventTrigger.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ColliderEvent\ExecuteColliderEvents.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\Pointer3D\Pointer3DEventData.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\Pointer3D\Pointer3DInputModule.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\Pointer3D\RaySegmentGenerator\Base\BaseRaySegmentGenerator.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\Pointer3D\RaySegmentGenerator\Base\IRaySegmentGenerator.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\Pointer3D\RaySegmentGenerator\DefaultGenerator.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\Pointer3D\RaySegmentGenerator\ProjectileGenerator.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\Pointer3D\RaySegmentGenerator\ProjectionGenerator.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\Pointer3D\RaycastMethod\Base\BaseRaycastMethod.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\Pointer3D\RaycastMethod\Base\IRaycastMethod.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\Pointer3D\RaycastMethod\CanvasRaycastMethod.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\Pointer3D\RaycastMethod\CanvasRaycastTarget.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\Pointer3D\RaycastMethod\GraphicRaycastMethod.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\Pointer3D\RaycastMethod\Physics2DRaycastMethod.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\Pointer3D\RaycastMethod\PhysicsRaycastMethod.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\Pointer3D\Raycaster\Base\BaseFallbackCamRaycaster.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\Pointer3D\Raycaster\Base\BaseMultiMethodRaycaster.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\Pointer3D\Raycaster\Pointer3DRaycaster.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\Pointer3D\StandaloneRaycaster\StandaloneEventData.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\Pointer3D\StandaloneRaycaster\StandaloneRaycaster.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\PoseTracker\Base\BasePoseModifier.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\PoseTracker\Base\BasePoseTracker.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\PoseTracker\Base\IPoseModifier.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\PoseTracker\Base\IPoseTracker.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\PoseTracker\Pose.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\PoseTracker\PoseModifiers\PoseEaser.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\PoseTracker\PoseModifiers\PoseFreezer.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\PoseTracker\PoseModifiers\PoseStablizer.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\PoseTracker\PoseTracker.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\Utility\ChangeProp.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\Utility\Container\IndexedSet.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\Utility\Container\IndexedTable.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\Utility\Container\OrderedIndexedSet.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\Utility\Container\OrderedIndexedTable.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\Utility\ContainerPool\DictionaryPool.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\Utility\ContainerPool\IndexedSetPool.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\Utility\ContainerPool\ListPool.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\Utility\ContainerPool\ObjectPool.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Examples\2.2DDragDrop\Scripts\DragImage.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Examples\2.2DDragDrop\Scripts\DropImage.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Examples\3.3DDrag\Scripts\Draggable.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Examples\3.3DDrag\Scripts\PlayGroundManager.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Examples\4.Teleport\Scripts\ImageAlphaRaycastFilter.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Examples\5.ColliderEvent\Scripts\GravitySwitch.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Examples\5.ColliderEvent\Scripts\ResetButton.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Examples\6.ControllerManagerSample\Scripts\ChangeMaterialToButtonsColor.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Examples\6.ControllerManagerSample\Scripts\ShowMenuOnClick.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Examples\6.ControllerManagerSample\Scripts\SpawnObjectOnTriggerExit.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\Misc\BasicGrabbable.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\Misc\ControllerManagerSample.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\Misc\GuideLineDrawer.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\Misc\MaterialChanger.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\Misc\OverlayKeyboardSample.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\Misc\ReticlePoser.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\Misc\Teleportable.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\ViveColliderEvent\ViveColliderEventCaster.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\ViveColliderEvent\ViveColliderEventData.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\ViveInput\ControllerState.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\ViveInput\ViveInput.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\ViveInput\ViveInputStatic.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\VivePose\VivePose.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\VivePose\VivePoseGet.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\VivePose\VivePoseTracker.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\VivePose\ViveRigidPoseTracker.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\ViveRaycaster\VivePointerEventData.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\ViveRaycaster\ViveRaycaster.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\ViveRole\DeviceRole.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\ViveRole\HandRole.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\ViveRole\ViveRole.cs" />
+    <Compile Include="Assets\HandPhysics\Example\Scripts\CollisionChecker.cs" />
+    <Compile Include="Assets\HandPhysics\Example\Scripts\HandPhysicsControllerInput.cs" />
+    <Compile Include="Assets\HandPhysics\Example\Scripts\HandPhysicsGame.cs" />
+    <Compile Include="Assets\HandPhysics\Scripts\FingerCollisionDetector.cs" />
+    <Compile Include="Assets\HandPhysics\Scripts\HandPart.cs" />
+    <Compile Include="Assets\HandPhysics\Scripts\HandPhysicsController.cs" />
+    <Compile Include="Assets\Mega-Fiers\MegaFier Test Scene\Scripts\BallBounce.cs" />
+    <Compile Include="Assets\Mega-Fiers\MegaFier Test Scene\Scripts\Bouyancy.cs" />
+    <Compile Include="Assets\Mega-Fiers\MegaFier Test Scene\Scripts\BouyancyNew.cs" />
+    <Compile Include="Assets\Mega-Fiers\MegaFier Test Scene\Scripts\KDTree.cs" />
+    <Compile Include="Assets\Mega-Fiers\MegaFier Test Scene\Scripts\MOrbit.cs" />
+    <Compile Include="Assets\Mega-Fiers\MegaFier Test Scene\Scripts\MatchShape.cs" />
+    <Compile Include="Assets\Mega-Fiers\MegaFier Test Scene\Scripts\MegaGUI.cs" />
+    <Compile Include="Assets\Mega-Fiers\MegaFier Test Scene\Scripts\MegaGlobeLink.cs" />
+    <Compile Include="Assets\Mega-Fiers\MegaFier Test Scene\Scripts\MegaIWave.cs" />
+    <Compile Include="Assets\Mega-Fiers\MegaFier Test Scene\Scripts\MegaSpawnTest.cs" />
+    <Compile Include="Assets\Mega-Fiers\MegaFier Test Scene\Scripts\MegaTestAnimator.cs" />
+    <Compile Include="Assets\Mega-Fiers\MegaFier Test Scene\Scripts\MegaWireDeform.cs" />
+    <Compile Include="Assets\Mega-Fiers\MegaFier Test Scene\Scripts\PathFollow.cs" />
+    <Compile Include="Assets\Mega-Fiers\MegaFier Test Scene\Scripts\PyramidMesh.cs" />
+    <Compile Include="Assets\Mega-Fiers\MegaFier Test Scene\Scripts\Scroll.cs" />
+    <Compile Include="Assets\Mega-Fiers\MegaFier Test Scene\Scripts\SoftBody.cs" />
+    <Compile Include="Assets\Mega-Fiers\MegaFier Test Scene\Scripts\ToggleMultiCore.cs" />
+    <Compile Include="Assets\Mega-Fiers\MegaFier Test Scene\Scripts\TyreRipple.cs" />
+    <Compile Include="Assets\Mega-Fiers\MegaFier Test Scene\Scripts\WalkBridge.cs" />
+    <Compile Include="Assets\Mega-Fiers\MegaFier Test Scene\Scripts\WalkRope.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\MegaBezPatch.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\MegaBook.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\MegaBookNew.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\MegaBox3.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\MegaControllers\MegaBezFloatKeyControl.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\MegaControllers\MegaBezVector3KeyControl.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\MegaControllers\MegaControl.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\MegaMatrix.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\MegaPerlin.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\MegaShape\MegaCharacterFollow.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\MegaShape\MegaHose.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\MegaShape\MegaHoseAttach.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\MegaShape\MegaMeshPage.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\MegaShape\MegaShape.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\MegaShape\MegaShapeAnimate.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\MegaShape\MegaShapeArc.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\MegaShape\MegaShapeCircle.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\MegaShape\MegaShapeEllipse.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\MegaShape\MegaShapeHelix.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\MegaShape\MegaShapeLine.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\MegaShape\MegaShapeNGon.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\MegaShape\MegaShapeRectangle.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\MegaShape\MegaShapeSVG.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\MegaShape\MegaShapeSXL.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\MegaShape\MegaShapeStar.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\MegaShape\MegaTankWheels.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\MegaShape\MegaTracks.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\MegaShape\MegaTrainFollow.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\MegaUtils.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\MegaWaveMesh.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\MegaXMLReader.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaBend.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaBubble.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaBulge.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaCollisionDeform.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaConformMod.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaCrumple.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaCurveDeform.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaCurveSculpt.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaCurveSculptLayered.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaCylindrify.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaDeformable.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaDisplace.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaDisplaceLimits.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaDisplaceWebCam.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaDynamicRipple.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaFFD.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaFFD2x2x2.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaFFD3x3x3.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaFFD4x4x4.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaFFDAnimate.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaGlobe.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaHump.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaMelt.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaModifier.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaModifiers.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaModifyGroup.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaModifyObject.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaMorph\MegaMorphOMatic.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaNoise.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaPageFlip.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaPaint.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaPathDeform.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaPivotAdjust.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaPointCache.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaPointCacheAnimator.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaPointCacheInstance.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaPointCacheRef.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaPush.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaRadialSkew.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaRipple.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaRopeDeform.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaRubber.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaSimpleMod.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaSinusCurve.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaSkew.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaSpherify.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaSqueeze.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaStretch.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaTaper.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaTreeBend.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaTwist.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaVertNoise.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaVertexAnim.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaWave.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaWaving.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaWorldPathDeform.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\Morph\MegaMorph.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\Morph\MegaMorphAnim.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\Morph\MegaMorphAnimator.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\Morph\MegaMorphChan.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\Morph\MegaMorphLink.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\Morph\MegaMorphRef.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\Morph\MegaMorphTarget.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\Selection\MegaMatSelect.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\Selection\MegaMultiVolSelect.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\Selection\MegaSelection.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\Selection\MegaVertColSelect.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\Selection\MegaVolSelect.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\UVMods\MegaUVAdjust.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\UVMods\MegaUVTiles.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\Warps\MegaBendWarp.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\Warps\MegaBubbleWarp.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\Warps\MegaCylindrifyWarp.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\Warps\MegaGlobeWarp.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\Warps\MegaHumpWarp.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\Warps\MegaMeltWarp.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\Warps\MegaNoiseWarp.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\Warps\MegaRippleWarp.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\Warps\MegaSinusCurveWarp.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\Warps\MegaSkewWarp.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\Warps\MegaSpherifyWarp.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\Warps\MegaSqueezeWarp.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\Warps\MegaStretchWarp.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\Warps\MegaTaperWarp.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\Warps\MegaTwistWarp.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\Warps\MegaWarp.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\Warps\MegaWarpBind.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\Warps\MegaWaveWarp.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\Warps\MegaWavingWarp.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Utils\MegaAttach.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Utils\MegaBallBounce.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Utils\MegaCopyObject.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Utils\MegaModLODManager.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Utils\MegaNearestPoint.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Utils\MegaScroll.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Utils\MegaSoft2D.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Utils\MegaToggleMultiCore.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Utils\MegaWalkBridge.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Utils\MegaWalkRope.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Utils\MegaWrap.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Utils\MegaWrapRef.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaGrab\DOFCamera.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaGrab\JPGEncoder.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaGrab\MegaGrab.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\NPC\NPCController.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\NPC\VRNPCController.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\NPC\WayPoints.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\PC\Animation\AnimationCall.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\PC\Audio\AudioController.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\PC\Canvas\CrossController.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\PC\Canvas\GoodwillController.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\PC\Canvas\HintTextController.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\PC\Canvas\MessageTextController.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\PC\Canvas\TriggerTextController.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\PC\Game\GameController.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\PC\Movie\MovieController.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\PC\Package\PackageController.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\PC\Player\FocusCheck.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\PC\Player\PlayerController.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\VR\AnimationCall\VRAnimationCall.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\VR\Audio\VRAudioController.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\VR\Canvas\VRCrossController.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\VR\Canvas\VRGoodwillController.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\VR\Canvas\VRHintTextController.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\VR\Canvas\VRMessageTextController.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\VR\Canvas\VRTriggerTextController.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\VR\EndScene\VRGameOverBG.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\VR\Game\VRGameController.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\VR\Mouse\VRMouseController.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\VR\Movie\VRMovieController.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\VR\Package\VRBookController.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\VR\Package\VRPackageController.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\VR\Package\VRRecorderController.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\VR\Package\VRRightHandController.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\VR\Player\VRFocusCheck.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\VR\Player\VRHandController.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\VR\Player\VRInput.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\VR\Player\VRPlayerController.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\VR\ShaderController\DissolveController.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\VR\ShaderController\ImageShineController.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\VR\ShaderController\VRDissolveController.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\VR\ShaderController\ViewController.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\VR\ShaderController\VolShaft_1.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\VR\StartScene\MyButton.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\VR\StartScene\VRFadeInSceneController.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\VR\StartScene\VRFadeOutSceneController.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\VR\Trigger\Common\VRPickTrigger.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\VR\Trigger\Hall\VRBeatNoseTrigger.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\VR\Trigger\Hall\VRDropUpTrigger.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\VR\Trigger\Hall\VROpenLightTrigger.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\VR\Trigger\Room1\VRDropDownTrigger.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\VR\Trigger\Room1\VRKeyOpenDoorTrigger.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\VR\Trigger\Room1\VROpenDrawerTrigger.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\VR\Trigger\Room2\VRDissolveTrigger.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\VR\Trigger\Room2\VRTorchMoveTrigger.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\VR\Trigger\Room2\VRTorchPutTrigger.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\VR\Trigger\Room3\VRBreakTrigger.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\VR\Trigger\Room3\VRBrokenController.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\VR\Trigger\Room3\VRCabinetOpenDoorTrigger.cs" />
+    <Compile Include="Assets\MyAsset\Scripts\VR\Trigger\Room4\VRSwipeCardTrigger.cs" />
+    <Compile Include="Assets\SteamVR\Extras\SteamVR_GazeTracker.cs" />
+    <Compile Include="Assets\SteamVR\Extras\SteamVR_LaserPointer.cs" />
+    <Compile Include="Assets\SteamVR\Extras\SteamVR_Teleporter.cs" />
+    <Compile Include="Assets\SteamVR\Extras\SteamVR_TestThrow.cs" />
+    <Compile Include="Assets\SteamVR\Extras\SteamVR_TestTrackedCamera.cs" />
+    <Compile Include="Assets\SteamVR\Extras\SteamVR_TrackedController.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\BodyCollider.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\CircularDrive.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\ComplexThrowable.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\ControllerHoverHighlight.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\CustomEvents.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\DebugUI.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\DestroyOnDetachedFromHand.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\DestroyOnParticleSystemDeath.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\DestroyOnTriggerEnter.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\DistanceHaptics.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\DontDestroyOnLoad.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\EnumFlags.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\FallbackCameraController.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\Hand.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\HapticRack.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\HideOnHandFocusLost.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\IgnoreHovering.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\InputModule.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\Interactable.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\InteractableButtonEvents.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\InteractableHoverEvents.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\ItemPackage.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\ItemPackageReference.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\ItemPackageSpawner.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\LinearAnimation.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\LinearAnimator.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\LinearAudioPitch.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\LinearBlendshape.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\LinearDisplacement.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\LinearDrive.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\LinearMapping.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\PlaySound.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\Player.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\SeeThru.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\SleepOnAwake.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\SoundDeparent.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\SoundPlayOneshot.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\SpawnAndAttachAfterControllerIsTracking.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\SpawnAndAttachToHand.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\SpawnRenderModel.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\Throwable.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\UIElement.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\Unparent.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\Util.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\VelocityEstimator.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Hints\Scripts\ControllerButtonHints.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Longbow\Scripts\ArcheryTarget.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Longbow\Scripts\Arrow.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Longbow\Scripts\ArrowHand.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Longbow\Scripts\ArrowheadRotation.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Longbow\Scripts\Balloon.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Longbow\Scripts\BalloonColliders.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Longbow\Scripts\BalloonHapticBump.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Longbow\Scripts\BalloonSpawner.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Longbow\Scripts\ExplosionWobble.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Longbow\Scripts\FireSource.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Longbow\Scripts\Longbow.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Longbow\Scripts\SoundBowClick.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Samples\Scripts\ControllerHintsExample.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Samples\Scripts\InteractableExample.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Teleport\Scripts\AllowTeleportWhileAttachedToHand.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Teleport\Scripts\ChaperoneInfo.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Teleport\Scripts\IgnoreTeleportTrace.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Teleport\Scripts\Teleport.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Teleport\Scripts\TeleportArc.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Teleport\Scripts\TeleportArea.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Teleport\Scripts\TeleportMarkerBase.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Teleport\Scripts\TeleportPoint.cs" />
+    <Compile Include="Assets\SteamVR\Plugins\openvr_api.cs" />
+    <Compile Include="Assets\SteamVR\Scripts\SteamVR.cs" />
+    <Compile Include="Assets\SteamVR\Scripts\SteamVR_Camera.cs" />
+    <Compile Include="Assets\SteamVR\Scripts\SteamVR_CameraFlip.cs" />
+    <Compile Include="Assets\SteamVR\Scripts\SteamVR_CameraMask.cs" />
+    <Compile Include="Assets\SteamVR\Scripts\SteamVR_Controller.cs" />
+    <Compile Include="Assets\SteamVR\Scripts\SteamVR_ControllerManager.cs" />
+    <Compile Include="Assets\SteamVR\Scripts\SteamVR_Ears.cs" />
+    <Compile Include="Assets\SteamVR\Scripts\SteamVR_Events.cs" />
+    <Compile Include="Assets\SteamVR\Scripts\SteamVR_ExternalCamera.cs" />
+    <Compile Include="Assets\SteamVR\Scripts\SteamVR_Fade.cs" />
+    <Compile Include="Assets\SteamVR\Scripts\SteamVR_Frustum.cs" />
+    <Compile Include="Assets\SteamVR\Scripts\SteamVR_GameView.cs" />
+    <Compile Include="Assets\SteamVR\Scripts\SteamVR_IK.cs" />
+    <Compile Include="Assets\SteamVR\Scripts\SteamVR_LoadLevel.cs" />
+    <Compile Include="Assets\SteamVR\Scripts\SteamVR_Menu.cs" />
+    <Compile Include="Assets\SteamVR\Scripts\SteamVR_Overlay.cs" />
+    <Compile Include="Assets\SteamVR\Scripts\SteamVR_PlayArea.cs" />
+    <Compile Include="Assets\SteamVR\Scripts\SteamVR_Render.cs" />
+    <Compile Include="Assets\SteamVR\Scripts\SteamVR_RenderModel.cs" />
+    <Compile Include="Assets\SteamVR\Scripts\SteamVR_Skybox.cs" />
+    <Compile Include="Assets\SteamVR\Scripts\SteamVR_SphericalProjection.cs" />
+    <Compile Include="Assets\SteamVR\Scripts\SteamVR_Stats.cs" />
+    <Compile Include="Assets\SteamVR\Scripts\SteamVR_TestController.cs" />
+    <Compile Include="Assets\SteamVR\Scripts\SteamVR_TrackedCamera.cs" />
+    <Compile Include="Assets\SteamVR\Scripts\SteamVR_TrackedObject.cs" />
+    <Compile Include="Assets\SteamVR\Scripts\SteamVR_UpdatePoses.cs" />
+    <Compile Include="Assets\SteamVR\Scripts\SteamVR_Utils.cs" />
+    <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\P2T.cs" />
+    <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Delaunay\DelaunayTriangle.cs" />
+    <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Delaunay\Sweep\AdvancingFront.cs" />
+    <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Delaunay\Sweep\AdvancingFrontNode.cs" />
+    <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Delaunay\Sweep\DTSweep.cs" />
+    <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Delaunay\Sweep\DTSweepBasin.cs" />
+    <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Delaunay\Sweep\DTSweepConstraint.cs" />
+    <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Delaunay\Sweep\DTSweepContext.cs" />
+    <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Delaunay\Sweep\DTSweepDebugContext.cs" />
+    <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Delaunay\Sweep\DTSweepEdgeEvent.cs" />
+    <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Delaunay\Sweep\DTSweepPointComparator.cs" />
+    <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Delaunay\Sweep\PointOnEdgeException.cs" />
+    <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\ITriangulatable.cs" />
+    <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Orientation.cs" />
+    <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Polygon\Contour.cs" />
+    <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Polygon\Polygon.cs" />
+    <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Polygon\PolygonPoint.cs" />
+    <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Polygon\PolygonSet.cs" />
+    <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Polygon\PolygonUtil.cs" />
+    <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Sets\ConstrainedPointSet.cs" />
+    <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Sets\PointSet.cs" />
+    <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\TriangulationAlgorithm.cs" />
+    <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\TriangulationConstraint.cs" />
+    <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\TriangulationContext.cs" />
+    <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\TriangulationDebugContext.cs" />
+    <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\TriangulationMode.cs" />
+    <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\TriangulationPoint.cs" />
+    <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Util\PointGenerator.cs" />
+    <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Util\PolygonGenerator.cs" />
+    <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Util\TriangulationUtil.cs" />
+    <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Utility\FixedArray3.cs" />
+    <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Utility\FixedBitArray3.cs" />
+    <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Utility\MathUtil.cs" />
+    <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Utility\Point2D.cs" />
+    <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Utility\Point2DList.cs" />
+    <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Utility\Rect2D.cs" />
+    <Compile Include="Assets\Ultimate Game Tools\Fracturing\Sample Scene Data\Scripts\LogicArcsAndColumns.cs" />
+    <Compile Include="Assets\Ultimate Game Tools\Fracturing\Sample Scene Data\Scripts\LogicCollidingSphere.cs" />
+    <Compile Include="Assets\Ultimate Game Tools\Fracturing\Sample Scene Data\Scripts\LogicCompoundObject.cs" />
+    <Compile Include="Assets\Ultimate Game Tools\Fracturing\Sample Scene Data\Scripts\LogicExplodingFloor.cs" />
+    <Compile Include="Assets\Ultimate Game Tools\Fracturing\Sample Scene Data\Scripts\LogicExplodingGoblin.cs" />
+    <Compile Include="Assets\Ultimate Game Tools\Fracturing\Sample Scene Data\Scripts\LogicGlobalFracturing.cs" />
+    <Compile Include="Assets\Ultimate Game Tools\Fracturing\Sample Scene Data\Scripts\UltimateFracturingFPS.cs" />
+    <Compile Include="Assets\Ultimate Game Tools\Fracturing\Scripts\ConcaveColliderInterface.cs" />
+    <Compile Include="Assets\Ultimate Game Tools\Fracturing\Scripts\ExplosionSource.cs" />
+    <Compile Include="Assets\Ultimate Game Tools\Fracturing\Scripts\Fracture.cs" />
+    <Compile Include="Assets\Ultimate Game Tools\Fracturing\Scripts\FracturedChunk.cs" />
+    <Compile Include="Assets\Ultimate Game Tools\Fracturing\Scripts\FracturedObject.cs" />
+    <Compile Include="Assets\Ultimate Game Tools\Fracturing\Scripts\FracturingUtilDieTimer.cs" />
+    <Compile Include="Assets\Ultimate Game Tools\Fracturing\Scripts\MeshData.cs" />
+    <Compile Include="Assets\Ultimate Game Tools\Fracturing\Scripts\SpaceTree.cs" />
+    <Compile Include="Assets\Ultimate Game Tools\Fracturing\Scripts\Split.cs" />
+    <Compile Include="Assets\Ultimate Game Tools\Fracturing\Scripts\SupportPlane.cs" />
+    <Compile Include="Assets\Ultimate Game Tools\Fracturing\Scripts\Triangulate.cs" />
+    <Compile Include="Assets\Ultimate Game Tools\MeshCombiner\Scripts\CombinedMesh.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\(CharacterB)Cleaver Warrior\Test World\Materials\FX-Water Simple.shader" />
+    <None Include="Assets\(CharacterC)Extreme medical characters pack\README.txt" />
+    <None Include="Assets\(CharacterD)UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_akarami_blend.shader" />
+    <None Include="Assets\(CharacterD)UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_eye.shader" />
+    <None Include="Assets\(CharacterD)UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_eye_blend.shader" />
+    <None Include="Assets\(CharacterD)UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_eyelash_blend.shader" />
+    <None Include="Assets\(CharacterD)UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_fuku.shader" />
+    <None Include="Assets\(CharacterD)UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_fuku_ds.shader" />
+    <None Include="Assets\(CharacterD)UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hada.shader" />
+    <None Include="Assets\(CharacterD)UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hada_blend.shader" />
+    <None Include="Assets\(CharacterD)UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hair.shader" />
+    <None Include="Assets\(CharacterD)UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hair_ds.shader" />
+    <None Include="Assets\(CharacterD)UnityChan\Stage\Shader\AlphaMask.shader" />
+    <None Include="Assets\(CharacterD)UnityChan\license.txt" />
+    <None Include="Assets\Bedroom_Asset\Textures\cs_glass.shader" />
+    <None Include="Assets\Environment\Case1\ConstructionSitePack\FireEscapeDoor\Door.shader" />
+    <None Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\CinematicEffects(ALPHA)\AntiAliasing\Shaders\SMAA.shader" />
+    <None Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\CinematicEffects(BETA)\DepthOfField\Shaders\BokehSplatting.shader" />
+    <None Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\CinematicEffects(BETA)\DepthOfField\Shaders\DepthOfField.shader" />
+    <None Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\CinematicEffects(BETA)\DepthOfField\Shaders\MedianFilter.shader" />
+    <None Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\CinematicEffects(BETA)\ScreenSpaceReflection\Shaders\ScreenSpaceReflection.shader" />
+    <None Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\CinematicEffects(BETA)\TonemappingColorGrading\Shaders\Histogram.compute" />
+    <None Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\CinematicEffects(BETA)\TonemappingColorGrading\Shaders\TonemappingColorGrading.shader" />
+    <None Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\CinematicEffects(BETA)\TonemappingColorGrading\Shaders\TonemappingColorGradingHistogram.shader" />
+    <None Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Shaders\BlendModesOverlay.shader" />
+    <None Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Shaders\BlurEffectConeTaps.shader" />
+    <None Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlur.shader" />
+    <None Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlurDX11.shader" />
+    <None Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Shaders\ChromaticAberrationShader.shader" />
+    <None Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrection3DLut.shader" />
+    <None Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurves.shader" />
+    <None Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurvesSimple.shader" />
+    <None Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionEffect.shader" />
+    <None Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionSelective.shader" />
+    <None Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Adaptation.shader" />
+    <None Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Apply.shader" />
+    <None Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Luminance.shader" />
+    <None Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\MinMaxReduction.shader" />
+    <None Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Shaders\ContrastComposite.shader" />
+    <None Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Shaders\ConvertDepth.shader" />
+    <None Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Shaders\CreaseApply.shader" />
+    <None Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Shaders\EdgeDetectNormals.shader" />
+    <None Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Shaders\FisheyeShader.shader" />
+    <None Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Shaders\GlobalFog.shader" />
+    <None Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Shaders\GrayscaleEffect.shader" />
+    <None Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Shaders\MotionBlur.shader" />
+    <None Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Shaders\MotionBlurClear.shader" />
+    <None Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrain.shader" />
+    <None Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrainDX11.shader" />
+    <None Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
+    <None Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderYUV.shader" />
+    <None Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Shaders\SSAOShader.shader" />
+    <None Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Shaders\ScreenSpaceAmbientObscurance.shader" />
+    <None Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Shaders\SepiaToneEffect.shader" />
+    <None Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Shaders\SimpleClear.shader" />
+    <None Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Shaders\SunShaftsComposite.shader" />
+    <None Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Shaders\Tonemapper.shader" />
+    <None Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Shaders\TwirlEffect.shader" />
+    <None Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Shaders\VignettingShader.shader" />
+    <None Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Shaders\VortexEffect.shader" />
+    <None Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\DLAA.shader" />
+    <None Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA2.shader" />
+    <None Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA3Console.shader" />
+    <None Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset2.shader" />
+    <None Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset3.shader" />
+    <None Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\NFAA.shader" />
+    <None Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\SSAA.shader" />
+    <None Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\Blend.shader" />
+    <None Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendForBloom.shader" />
+    <None Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
+    <None Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
+    <None Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+    <None Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
+    <None Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+    <None Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBloom.shader" />
+    <None Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBlur.shader" />
+    <None Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
+    <None Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+    <None Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\Bokeh34.shader" />
+    <None Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfField34.shader" />
+    <None Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
+    <None Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
+    <None Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableBlur.shader" />
+    <None Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
+    <None Include="Assets\Environment\GunAndBar\Materials\Table and chair\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader" />
+    <None Include="Assets\GothicCastel\Standard Assets\shader\DifBumpSpecTransp.shader" />
+    <None Include="Assets\HTC.UnityPlugin\ViveInputUtility\Scripts\Misc\Resources\Unlit-AlphaWithFade.shader" />
+    <None Include="Assets\HTC.UnityPlugin\ViveInputUtility\readme.txt" />
+    <None Include="Assets\HandPhysics\Example\Shaders\3DTextCullBack.shader" />
+    <None Include="Assets\HandPhysics\Readme.txt" />
+    <None Include="Assets\Materials\StaffOfPain\readme_first.txt" />
+    <None Include="Assets\Materials\plants\dd\AlphaTest-Bumped.shader" />
+    <None Include="Assets\Mega-Fiers\ReadMe.txt" />
+    <None Include="Assets\MyAsset\Shaders\Dissolve.shader" />
+    <None Include="Assets\MyAsset\Shaders\ImageShine.shader" />
+    <None Include="Assets\MyAsset\Shaders\Outline.shader" />
+    <None Include="Assets\MyAsset\Shaders\VolShaft_1.shader" />
+    <None Include="Assets\Resources\Dist.txt" />
+    <None Include="Assets\Resources\Map.txt" />
+    <None Include="Assets\Standard Assets\Water (Pro Only)\Sources\Shaders\FX-Water.shader" />
+    <None Include="Assets\SteamVR\InteractionSystem\Core\Shaders\SeeThru.shader" />
+    <None Include="Assets\SteamVR\InteractionSystem\Core\Shaders\Silhouette.shader" />
+    <None Include="Assets\SteamVR\InteractionSystem\Hints\Shaders\ControllerButtonHints.shader" />
+    <None Include="Assets\SteamVR\InteractionSystem\Readme_InteractionSystem.txt" />
+    <None Include="Assets\SteamVR\InteractionSystem\Teleport\Shaders\Highlight.shader" />
+    <None Include="Assets\SteamVR\Resources\SteamVR_AlphaOut.shader" />
+    <None Include="Assets\SteamVR\Resources\SteamVR_ClearAll.shader" />
+    <None Include="Assets\SteamVR\Resources\SteamVR_ColorOut.shader" />
+    <None Include="Assets\SteamVR\Resources\SteamVR_Fade.shader" />
+    <None Include="Assets\SteamVR\Resources\SteamVR_SphericalProjection.shader" />
+    <None Include="Assets\SteamVR\readme.txt" />
+    <None Include="Assets\Ultimate Game Tools\Fracturing\!Readme - v1.11.txt" />
+    <None Include="Assets\Ultimate Game Tools\MeshCombiner\!Readme - v1.02.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2013\UnityVS.CSharp.targets" />
+</Project>

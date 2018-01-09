@@ -1,0 +1,138 @@
+fileFormatVersion: 2
+guid: 656034bd1d1a8164ca93484f596312f7
+timeCreated: 1496569808
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Bulb
+    100002: Flashlight1
+    100004: Flashlight2
+    100006: Glass
+    100008: //RootNode
+    100010: Handle
+    100012: Reflector
+    100014: Ring
+    100016: Switch
+    100018: Thing
+    100020: Wolfram
+    100022: Wolfram2
+    100024: Wolfram3
+    400000: Bulb
+    400002: Flashlight1
+    400004: Flashlight2
+    400006: Glass
+    400008: //RootNode
+    400010: Handle
+    400012: Reflector
+    400014: Ring
+    400016: Switch
+    400018: Thing
+    400020: Wolfram
+    400022: Wolfram2
+    400024: Wolfram3
+    2300000: Bulb
+    2300002: Flashlight1
+    2300004: Flashlight2
+    2300006: Glass
+    2300008: Handle
+    2300010: Reflector
+    2300012: Ring
+    2300014: Switch
+    2300016: Thing
+    2300018: Wolfram
+    2300020: Wolfram2
+    2300022: Wolfram3
+    3300000: Bulb
+    3300002: Flashlight1
+    3300004: Flashlight2
+    3300006: Glass
+    3300008: Handle
+    3300010: Reflector
+    3300012: Ring
+    3300014: Switch
+    3300016: Thing
+    3300018: Wolfram
+    3300020: Wolfram2
+    3300022: Wolfram3
+    4300000: Bulb
+    4300002: Handle
+    4300004: Flashlight2
+    4300006: Ring
+    4300008: Reflector
+    4300010: Glass
+    4300012: Thing
+    4300014: Wolfram3
+    4300016: Wolfram2
+    4300018: Wolfram
+    4300020: Switch
+    4300022: Flashlight1
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
